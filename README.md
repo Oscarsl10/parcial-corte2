@@ -1,1 +1,1 @@
-# -parcial-corte2
+# parcial-corte2
