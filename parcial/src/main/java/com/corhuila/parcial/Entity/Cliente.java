@@ -10,8 +10,8 @@ public class Cliente extends ABaseEntity{
 
     @Column(name = "name", length = 250)
     private String name;
-    @Column(name = "documento")
-    private String documento;
+    @Column(name = "contacto")
+    private String contacto;
 
     public String getName() {
         return name;
@@ -21,11 +21,11 @@ public class Cliente extends ABaseEntity{
         this.name = name;
     }
 
-    public String getDocumento() {
-        return documento;
+    public String getContacto() {
+        return contacto;
     }
 
-    public void setDocumento(String documento) {
-        this.documento = documento;
+    public void setContacto(String contacto) {
+        this.contacto = contacto;
     }
 }
